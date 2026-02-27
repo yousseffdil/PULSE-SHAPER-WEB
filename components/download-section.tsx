@@ -21,7 +21,8 @@ export function DownloadSection() {
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="#"
+            href="/vst/PULSE-SHAPER.vst3"
+            download
             className="inline-flex items-center gap-3 rounded-sm bg-primary px-10 py-4 text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-all hover:opacity-90 animate-pulse-glow"
           >
             <Download size={18} />

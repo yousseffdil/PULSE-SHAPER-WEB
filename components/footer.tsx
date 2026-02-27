@@ -33,7 +33,8 @@ export function Footer() {
             Specs
           </Link>
           <Link
-            href="#download"
+            href="/vst/PULSE-SHAPER.vst3"
+            download
             className="text-xs text-muted-foreground transition-colors hover:text-foreground"
           >
             Download

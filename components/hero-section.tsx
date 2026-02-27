@@ -29,7 +29,8 @@ export function HeroSection() {
 
         <div className="animate-fade-in-up animation-delay-600 flex flex-col items-center gap-4 sm:flex-row">
           <a
-            href="#download"
+            href="/vst/PULSE-SHAPER.vst3"
+            download
             className="rounded-sm bg-primary px-8 py-3.5 text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-all hover:opacity-90 animate-pulse-glow"
           >
             Download Free

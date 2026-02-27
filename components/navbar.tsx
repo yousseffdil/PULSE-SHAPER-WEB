@@ -56,7 +56,8 @@ export function Navbar() {
             Specs
           </Link>
           <Link
-            href="#download"
+            href="/vst/PULSE-SHAPER.vst3"
+            download
             className="rounded-sm bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             Download Free
@@ -97,7 +98,8 @@ export function Navbar() {
               Specs
             </Link>
             <Link
-              href="#download"
+              href="/vst/PULSE-SHAPER.vst3"
+              download
               className="rounded-sm bg-primary px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"
               onClick={() => setMobileOpen(false)}
             >
